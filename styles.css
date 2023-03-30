@@ -81,7 +81,7 @@ a.start {
 .title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: none;
   color: #257178;
   margin: 0;
@@ -90,20 +90,31 @@ a.start {
 .subtitle {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2rem;
   text-shadow: none;
   color: #257178;
   margin: 0 auto 3%;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .text-box {
-  margin: 0 30% 3%;
+  margin: 0 20% 10%;
+  padding: 0 5% 5%;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: #257178;
   text-align: left;
   height: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .instructions .btn {
@@ -112,4 +123,11 @@ a.start {
 
 .wyd {
   padding: 10%;
+}
+
+.btn {
+  display: block;
+  justify-content: center;
+  margin-bottom: 5%;
+  max-width: 10%;
 }
